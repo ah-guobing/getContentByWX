@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>微信公众文章一键转载</title>
+    <style>
+        #url {
+            width: 380px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form method="post" action="pos.php" target="_blank">
+        待转载页面：<input type="text" name="url" id="url"/><br/>
+        是否转码：<input type="radio" name="zm" value="0" checked/>否&nbsp;&nbsp;<input type="radio" name="zm" value="1"/>
+        是<br/>
+        <input type="submit" value="转载"/>
+    </form>
+</div>
+</body>
+</html>
